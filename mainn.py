@@ -7,7 +7,9 @@ scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/au
 
 try:
     # Secrets se load karna
-    key_dict = json.loads(st.secrets["my_key"])
+    raw_key = st.secrets["my_key"]
+    key_dict = json.loads(raw_key, strict=False) # strict=False se hidden characters ignore ho jate hain
+    
     creds = ServiceAccountCredentials.from_json_keyfile_dict(key_dict, scope)
     client = gspread.authorize(creds)
     sheet = client.open_by_key("1Wu7gvmumWYikaTBGQO41tXeNX8Xh2Sa0lc-Sucb3N20").sheet1
@@ -15,8 +17,10 @@ try:
     st.title("Registration Form")
     username = st.text_input("Enter username")
     password = st.text_input("Enter password", type="password")
+    
     if st.button("Submit"):
         sheet.append_row([username, password])
-        st.success("Saved! ✅")
+        st.success("Success! ✅")
+        
 except Exception as e:
-    st.error(f"Error details: {e}")
+    st.error(f"Error: {e}")
