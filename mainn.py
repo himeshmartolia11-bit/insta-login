@@ -9,7 +9,7 @@ scope = ["https://spreadsheets.google.com/feeds",
 creds = ServiceAccountCredentials.from_json_keyfile_name("flawless-mason-492603-t0-0db917a2263e.json", scope)
 client = gspread.authorize(creds)
 
-sheet = client.open_by_key("1Wu7gvmumWYikaTBGQO41tXeNX8Xh2Sa0Ic-Sucb3N20").sheet1
+sheet = client.open_by_key("1Wu7gvmumWYikaTBGQO41tXeNX8Xh2Sa0lc-Sucb3N20").sheet1
 
 # UI
 st.title("Form")
