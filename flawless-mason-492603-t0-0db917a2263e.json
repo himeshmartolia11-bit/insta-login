@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "flawless-mason-492603-t0",
+  "private_key_id": "0db917a2263e50fcb23b291d9e531138885b1e78",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDA+vX6W65TvFdL\nYsae483nnFAFyPWsFAGOIHtjDWEY2e6mAXJ7mg7+ijdTs/HOGcY/F5A07C2u3lkD\ncI4bTvXAWYdlSpo/zadgSe0d+36Ckd0mKuyYSDArwVt+Tb/hL+XRulKtVGL/scF2\n3+R3DUlXxEDBMPhoDE1T5+XbyTSktOsSR4VrOLXSkAwMjmBFchP4d7b+8VA2XQAm\nxwyaBsP/MrZWKkfjkSkOS9pX3dn5zwIhJDgE/H9vxpdV93HsZLTXMhaKIWgF90P1\nPvmVFyoqVT45bXnjHAmSr5diqgir68drHQbUGcvfW46PdmNF0P/whdVN6p3Tk8TO\nCNZKwbmzAgMBAAECggEAAPwGxI0yhCOCKn9JgMasETy/PRhRBdy1mVJZxB/trovG\nEjtlqHMZFSatW5RKbSu9KCs9msItsCZa5o/sxFTlyg0VihMUWwj4i/Q0l8zlpf2K\ngZxXHVEY9dAvCvjokVnbiUizDUal7qSrK6kUEvYSuWDl7QEL816aB7iMzU88doP3\neSdMqP/ZsM3zQQXaBzE2R9OmgK1rqre48b85w6LFTco1tpO8/JEvL/uCuVAcT5pY\nFQurV9Lkal1vh3WFvXwuGLq9BrKpHQSXRMbr9TvyJZ1Fr4r7OhtRukG1Fl46M7F3\nGEYl1+Iv+GAu3tLIu4wmOEiVSS7OkI9Xl0tTWHm5AQKBgQD+eCr++wkD3pIvaZpc\njI2M5Z3oUNzJO1wYKIN8vIwocXaQeRzZC0GBx1ZEKiMv/ipRKFcSE+8/0GGF58bw\nEP1QtmacNO2mZvTh7Z6jrky/z8sFYghI3cvcxbcOn23BFa/+aRbYLkeCG4UAvqgd\nAkyFzSdVVaTvAIDODhIwZjaEMwKBgQDCJByq9o8ihT1e05883HEOEBiZFcOcDx/L\nDCvxudjV1AqhTgfljOLbN58IJfGSdy+GTfwRp9/jipReFNFoU+9+/zryeCdk9kVK\nRDnvLZBw0OcnHdbya8EdjlxSmF7Pbqv+zolIZwKjr8/8EmkH/Ohzrl4QWztpYAjk\n6BlhYxZ0gQKBgG0udAw4+3I8ke5j2gYxjB5S+sCNyV1R6b63y0q+v0gu/pcYT+dU\nLAQZ2gqfJb/WxqNRsqIgCXwQ1XcVrkack4OI71fAYeMOs60oPfOuumFmL46ctD9H\nYsvTzSop/3Zj7sIypsmUebv6QMPECe+AaALUtjan639ccOd4JBe+E0//AoGAcxzM\nbsaRKkvMjsx177VZx5fdre+Ms5z4IgIOkF685lS7FNfasM5vuMHrJv6wlULcSAs3\nehSLGTUTMhGv9OdH64pUnm6GFUQ844M+wsXGjk4fsT7tM4KW1/qQXV0BYodhrk0y\nc1643uuhK/qSkmzwO59ZIOOnf5y0yV2hpvAE4YECgYEAlh0QF8IriOALubslAPKt\nG1KtlPspkFlDxbJsEDsYCF0Y8PdaB4uxSaD8qpkhvdx51bJrtdzjboUiuLWwU9sF\nLt1ofCXWeGmSv906uBiZlJMk6Lw3MmhnZJMqJ9OulFP0FOdAakOEmYIxm24+hWuP\nhgjx7n5YEU5rTF3oEhGJZKw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "harsh-766@flawless-mason-492603-t0.iam.gserviceaccount.com",
+  "client_id": "110654634103228762472",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/harsh-766%40flawless-mason-492603-t0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
