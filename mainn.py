@@ -11,7 +11,7 @@ scope = ["https://spreadsheets.google.com/feeds",
 creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
 
-sheet = client.open("harshit the hacker").sheet1
+sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1Wu7gvmumWYikaTBGQO41tXeNX8Xh2Sa0Ic-Sucb3N20/edit?gid=0#gid=0").sheet1
 
 st.title("Form")
 
